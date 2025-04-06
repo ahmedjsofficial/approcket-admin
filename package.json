@@ -13,7 +13,7 @@
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry",
-    "postinstall": "npm install --force"
+      "heroku-postbuild": "npm ci --production=false --legacy-peer-deps"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.12.3",
