@@ -5,6 +5,7 @@ export default ({ env }) => ({
             neonApiKey: process.env.NEON_API_KEY,
             neonProjectName: process.env.NEON_PROJECT_NAME,
             neonRole: process.env.NEON_ROLE,
+            branchName: process.env.BRANCH_NAME || 'main',
         },
     },
     upload: {
