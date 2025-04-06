@@ -5,6 +5,7 @@ export default ({ env }) => ({
             neonApiKey: env("NEON_API_KEY"),
             neonProjectName: env("NEON_PROJECT_NAME"),
             neonRole: env("NEON_ROLE"),
+            gitBranch: "main"
         },
     },
     upload: {
