@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_links",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "bg_color": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

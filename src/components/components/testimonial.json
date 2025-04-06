@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_testimonials",
+  "info": {
+    "displayName": "Testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.team"
+    }
+  }
+}

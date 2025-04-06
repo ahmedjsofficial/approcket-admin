@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layouts_newsletters",
+  "info": {
+    "displayName": "Newsletter"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    }
+  }
+}

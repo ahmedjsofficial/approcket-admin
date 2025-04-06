@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layouts_brands_sections",
+  "info": {
+    "displayName": "Brands Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "brands": {
+      "displayName": "Brands",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.brands"
+    }
+  }
+}

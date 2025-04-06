@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layouts_navbars",
+  "info": {
+    "displayName": "Navbar"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "nav_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.footer-links"
+    },
+    "call_to_action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    }
+  }
+}

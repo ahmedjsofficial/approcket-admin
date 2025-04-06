@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layouts_our_works",
+  "info": {
+    "displayName": "Our Work",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "portfolio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.portfolio"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    }
+  }
+}

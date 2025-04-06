@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_blogs",
+  "info": {
+    "displayName": "Blogs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "category_name": {
+      "type": "string"
+    },
+    "blog_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

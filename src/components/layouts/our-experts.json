@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layouts_our_experts",
+  "info": {
+    "displayName": "Our Experts"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "short_text": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "services": {
+      "displayName": "Services",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.services"
+    }
+  }
+}

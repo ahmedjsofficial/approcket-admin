@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "layouts.footer"
+      ]
+    }
+  }
+}

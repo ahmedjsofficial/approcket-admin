@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layouts_awards",
+  "info": {
+    "displayName": "Awards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.brands"
+    }
+  }
+}
